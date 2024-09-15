@@ -1,0 +1,42 @@
+html, body {
+    height: 100%; 
+    margin: 0;
+}
+
+
+header {
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main p{
+    display: inline;
+    border: 1px solid #080000;
+    background-color: #cacaca5d;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+}
+
+
+main {
+    margin: 20%;
+}
+
+
+
+
+footer {
+    text-align: center; 
+    padding: 20px; 
+    background-color: #333333;
+    color: white;
+}
+
