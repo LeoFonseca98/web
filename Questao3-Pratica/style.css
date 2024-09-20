@@ -1,0 +1,24 @@
+.card {
+    margin: 5%;
+    border: 5px solid rgb(0, 0, 0);
+    padding: 100px;
+
+}
+
+
+.box {
+    display: inline-grid;
+    padding: 50px;
+    border: 5px solid rgb(0, 0, 0);
+    width: 100px;
+    
+    
+}
+
+.mainContent {
+    padding: 80px 200px;
+}
+
+.box1 {
+    padding: 80px;
+}
