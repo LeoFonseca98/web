@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRUD de Animes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Gerenciamento de Animes</h1>
+
+  <div>
+    <h2>Adicionar Anime</h2>
+    <form id="add-anime-form">
+      <input type="text" id="name" placeholder="Nome do Anime" required>
+      <input type="text" id="genre" placeholder="Gênero" required>
+      <input type="text" id="studio" placeholder="Estúdio" required>
+      <button type="submit">Adicionar</button>
+    </form>
+  </div>
+
+  <div>
+    <h2>Lista de Animes</h2>
+    <button onclick="fetchAnimes()">Atualizar Lista</button>
+    <ul id="anime-list"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
